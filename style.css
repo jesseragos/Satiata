@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Reem+Kufi&display=swap');
+
 :root {
 	--primary: #aa2525;
 	--secondary: #ff0000;
@@ -16,7 +18,11 @@
 	padding: 0;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
-	font-family: "Kozuka Gothic Pr6N", sans-serif;	
+	font-family: "Cabin", sans-serif;		
+}
+
+p {
+	line-height: 1.6;
 }
 
 body {
@@ -206,7 +212,7 @@ h2 {
 
 hr.sectionRule {
 	border: 1.5px solid var(--bg);
-	margin: 0 auto;
+	margin: 10px auto;
 	width: 30%;
 }
 
